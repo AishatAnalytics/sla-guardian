@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-04-28T15:20:31.417022",
+  "checks": [
+    {
+      "name": "AWS Health API",
+      "url": "https://health.amazonaws.com",
+      "timestamp": "2026-04-28T15:20:29.267065",
+      "status": "down",
+      "response_time_ms": null,
+      "status_code": null,
+      "error": "Connection Error"
+    },
+    {
+      "name": "GitHub API",
+      "url": "https://api.github.com",
+      "timestamp": "2026-04-28T15:20:29.311542",
+      "status": "healthy",
+      "response_time_ms": 328.01,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "name": "OpenWeatherMap API",
+      "url": "https://api.openweathermap.org",
+      "timestamp": "2026-04-28T15:20:29.644264",
+      "status": "healthy",
+      "response_time_ms": 1358.68,
+      "status_code": 200,
+      "error": null
+    }
+  ],
+  "sla_metrics": {
+    "total_checks": 3,
+    "healthy": 2,
+    "degraded": 0,
+    "down": 1,
+    "uptime_percentage": 66.67,
+    "avg_response_time_ms": 843.35,
+    "sla_target": 99.9,
+    "sla_breach": true,
+    "sla_status": "\ud83d\udd34 BREACH"
+  }
+}
